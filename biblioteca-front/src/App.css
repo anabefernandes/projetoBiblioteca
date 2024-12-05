@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.no-books {
+  /* text-align: center; */
+  padding: 60px;
+  height: 100%;
+  margin-left: 72%;
+  margin-bottom: 330px;
+}
+
+.no-books img {
+  max-width: 800px;
+}
+

@@ -1,0 +1,219 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #472121;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 10px;
+    width: 100%; 
+  }
+
+  .novo-livro {
+    margin-right: 30px;
+  }
+
+  .modal .formModal {
+    width: 85%; 
+    padding: 20px; 
+  }
+
+  .modal .inputField,
+  .modal .buttonModal {
+    width: 100%;
+  }
+
+  .modal .buttonModal {
+    padding: 10px;
+  }
+
+  .tituloModal {
+    font-size: 18px; 
+  }
+
+  .icon-close {
+    width: 25px;
+    height: 25px; 
+  }
+
+  .titulo-principal{
+    font-size: 40px;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-left: 15px; 
+  }
+
+  .card {
+    width: 220px; 
+    padding: 15px;
+    min-height: 300px; 
+  }
+  
+  .icon-fechar {
+    width: 16px !important; 
+    height: 16px !important;
+  }
+
+  .card h2 {
+    font-size: 16px;
+    flex-grow: 0
+  }
+  
+  /* Autor do livro */
+  .card h3 {
+    font-size: 13px;
+  }
+  
+  /* ISBN do livro */
+  .card p {
+    font-size: 11px;
+  }
+
+  .no-books {
+    margin-left: 20%;
+    margin-bottom: 145px;
+  }
+  
+  .no-books img {
+    max-width: 500px;
+  }
+
+  .footer {
+    padding: 10px 10px;
+    width: 100%; 
+  }
+
+  .container{
+    margin-top: 80px;
+  }
+
+  .search-bar {
+    position: absolute;  
+    top: 120px;  
+    left: 20%;
+  }
+
+  .dropdown-toggle {
+    padding: 8px 10px;
+    font-size: 14px;
+    width: 150px; 
+    position: absolute;  
+    top: 79px; 
+    margin-left: 110px;
+    
+  }
+
+  .nav-actions {
+    gap: 10px; 
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .navbar {
+    width: 100%;
+  } 
+
+  .search-bar {
+    position: absolute;  
+    top: 100px;  
+    left: 2%;
+  }
+
+  .titulo-principal{
+    font-size: 30px;
+  }
+
+  .container{
+    margin-top: 80px;
+  }
+
+  .modal .formModal {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .modal .inputField,
+  .modal .buttonModal {
+    width: 100%;
+    padding: 8px; 
+  }
+
+  .tituloModal {
+    font-size: 18px; 
+  }
+
+  .icon-close {
+    width: 19px;
+    height: 19px; 
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr ;
+    gap: 5px;
+    margin-left: 15px; 
+  }
+
+  .formContainerEmail {
+    max-width: 400px; 
+  }
+
+  .no-books {
+    margin-left: 5%;
+    margin-bottom: 155px;
+  }
+  
+  .no-books img {
+    max-width: 450px;
+  }
+
+  .dropdown-toggle {
+    padding: 8px 10px;
+    font-size: 14px;
+    width: 150px; 
+    position: absolute;  
+    top: 58px; 
+    margin-left: 110px;
+  }
+
+  .nav-actions {
+    gap: 10px; 
+    margin-right: 20px;
+  }
+}
